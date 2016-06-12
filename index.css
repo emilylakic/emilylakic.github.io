@@ -45,32 +45,17 @@ a:visited {
 a:hover {
     color: #383838;
 }  
-p {
-color: white; 
-text-shadow: 2px 2px #c1d6d9;
-text-align: center;
-font-size: 55px;
-font-family: "Happy Camper";
-}
-img {
-margin: auto;
-}
-
 
 /*TRIAL*/
 @font-face { 
   font-family: Sverige Script;
   src: url(SverigeScriptDecorated_Demo.ttf); 
-  
-body {
-  background-color: #d8eff2; 
-  font-family: Tahoma, Times, Verdana; 
-} 
 p {
   font-family: "Sverige Script";
   color: black;
   font-size: 60px;
   text-align: center;
+  text-shadow: 2px 2px #c1d6d9;
 }
 
 #header { 

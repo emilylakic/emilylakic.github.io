@@ -1,15 +1,13 @@
 
 body {
   background-color: #d8eff2; 
-  font-family: Tahoma, Times, Verdana; 
-} 
-@font-face { 
-  font-family: Sverige Script;
-  src: url(SverigeScriptDecorated_Demo.ttf); 
-  
-body {
   font-family: "Sverige Script";
   color: black;
   font-size: 60px;
   text-align: center;
 }
+
+@font-face { 
+  font-family: Sverige Script;
+  src: url(SverigeScriptDecorated_Demo.ttf); 
+  

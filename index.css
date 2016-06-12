@@ -23,6 +23,10 @@ color: black;
 margin: auto;
 margin-top: 70px;
 }
+#logo { 
+font-size: 300px;
+text-align: auto;
+}
 p {
 color: white; 
 text-shadow: 2px 2px #c1d6d9;

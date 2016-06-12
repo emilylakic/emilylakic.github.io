@@ -12,6 +12,7 @@ color: black;
 position: relative;
 display: block;
 margin: auto;
+margin-top: 90px;
 }
 p {
 color: white; 

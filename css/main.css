@@ -4,6 +4,9 @@
 }
 body {
   background-image: url("http://i465.photobucket.com/albums/rr13/emmlakic/DSC_0254_zpslmife7te.jpg");
+   background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 #Emily { 

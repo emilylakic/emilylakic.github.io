@@ -3,9 +3,9 @@ background-color: #d8eff2;
 font-family: Tahoma, Times, Verdana; 
 }
 #button {
-width: 800px; 
-height: 800px; 
-border-radius: 100px; 
+width: 550px; 
+height: 550px; 
+border-radius: 300px; 
 background-color: white; 
 font-family: Tahoma; 
 color: black;
@@ -17,4 +17,5 @@ margin-top: 90px;
 p {
 color: white; 
 text-shadow: 2px 2px #c1d6d9;
+position: center;
 }

@@ -1,6 +1,6 @@
 @font-face { 
-  font-family: aliens and cows_trial; 
-  src: url(aliens_and_cows__trial.ttf);
+  font-family: SoftLine normal; 
+  src: url(SoftLine.otf);
 }
 @font-face { 
   font-family: Chasing Embers Demo Version;
@@ -37,6 +37,6 @@ body {
 #description { 
   color: white;
   font-size: 11px;
-  font-family: "aliens and cows_trial";
+  font-family: "SoftLine normal";
 }
   

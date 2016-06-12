@@ -3,16 +3,16 @@ background-color: #d8eff2;
 font-family: Tahoma, Times, Verdana; 
 }
 #button {
-width: 550px; 
-height: 550px; 
-border-radius: 300px; 
+width: 450px; 
+height: 450px; 
+border-radius: 400px; 
 background-color: white; 
 font-family: Tahoma; 
 color: black;
 position: relative;
 display: block;
 margin: auto;
-margin-top: 90px;
+margin-top: 70px;
 }
 p {
 color: white; 

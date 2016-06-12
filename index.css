@@ -30,6 +30,17 @@ font-family: "Free Monogram Beta";
 text-decoration: none;
 color: #4f4f4f;
 }
+a:link {
+    color: #4f4f4f;
+}
+/* visited link */
+a:visited {
+    color: #000000;
+}
+/* mouse over link */
+a:hover {
+    color: #383838;
+}  
 p {
 color: white; 
 text-shadow: 2px 2px #c1d6d9;

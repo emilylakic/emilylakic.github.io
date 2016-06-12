@@ -1,0 +1,16 @@
+body { 
+background-color: #dbfaff; 
+font-family: Tahoma, Times, Verdana; 
+}
+#button {
+width: 200px; 
+height: 200px; 
+border-radius: 40px; 
+background-color: white; 
+font-family: Tahoma; 
+color: black;
+}
+p {
+color: white; 
+text-shadow: 2px 2px #ff0000;
+}

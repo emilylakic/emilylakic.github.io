@@ -10,19 +10,6 @@ body {
 background-color: #d8eff2; 
 font-family: Tahoma, Times, Verdana; 
 }
-#button {
-width: 450px; 
-height: 450px; 
-border-radius: 400px; 
-background-color: white; 
-font-family: "Free Monogram Beta";
-font-size: 180px;
-text-align: center;
-line-height: -20px;
-color: black;
-margin: auto;
-margin-top: 70px;
-}
 #logo { 
 font-size: 300px;
 text-align: center;

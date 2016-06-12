@@ -1,4 +1,8 @@
 @font-face { 
+  font-family: aliens and cows_trial; 
+  src: url(aliens_and_cows_trial.ttf);
+}
+@font-face { 
   font-family: Chasing Embers Demo Version;
   src: url(Chasing_Embers_Demo_Version.otf); 
 }
@@ -29,3 +33,10 @@ body {
   margin-left: 775px;
   margin-top: -260px;
 }
+
+#description { 
+  color: white;
+  font-size: 11px;
+  font-family: "aliens and cows_trial";
+}
+  

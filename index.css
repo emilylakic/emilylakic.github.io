@@ -11,8 +11,7 @@ font-family: Tahoma;
 color: black;
 position: relative;
 display: block;
-margin-right: auto;
-margin-top: 40px;
+margin: auto;
 }
 p {
 color: white; 

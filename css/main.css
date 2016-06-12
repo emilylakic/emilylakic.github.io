@@ -41,4 +41,12 @@ body {
   margin-left: 935px;
   margin-top: -230px;
 }
-  
+
+a { 
+  text-decoration: none;
+  color: black;
+}
+
+a:hover { 
+  color: #29668f;
+}

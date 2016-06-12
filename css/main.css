@@ -4,9 +4,12 @@
 }
 body {
   background-color: #d8eff2; 
+}
+
+p { 
   font-family: "Chasing Embers Demo Version";
   color: black;
   font-size: 60px;
-  text-align: center;
+  text-align: center; 
 }
-
+  

@@ -2,6 +2,10 @@
     font-family: Free Monogram Beta;
     src: url(FreeMonogram_Beta_0.5.ttf);
 }
+@font-face { 
+    font-family: Happy Camper; 
+    src: url(Happy_Camper_Regular.ttf);
+}
 body { 
 background-color: #d8eff2; 
 font-family: Tahoma, Times, Verdana; 
@@ -26,6 +30,6 @@ color: white;
 text-shadow: 2px 2px #c1d6d9;
 text-align: center;
 font-size: 25px;
-line-height: -10px;
-font-family: Tahoma;
+line-height: -18px;
+font-family: "Happy Camper";
 }

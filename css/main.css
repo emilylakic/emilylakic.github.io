@@ -22,8 +22,9 @@ body {
 
 #Lakic { 
   font-family: "Chasing Embers Demo Version";
-  color: #bda059;
-  font-size: 140px;
+  color: #ba8916;
+  text-shadow: 2px 2px #bda059;
+  font-size: 180px;
   text-align: center; 
   line-height: 15px;
   margin-left: 825px;

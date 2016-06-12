@@ -1,13 +1,13 @@
 
+@font-face { 
+  font-family: Sverige Script Decorated Demo Regular;
+  src: url(Sverige.ttf); 
+}
 body {
   background-color: #d8eff2; 
-  font-family: Verdana;
+  font-family: "Sverige Script Decorated Demo Regular";
   color: black;
   font-size: 60px;
   text-align: center;
 }
 
-@font-face { 
-  font-family: Saint Andrews Queen;
-  src: url(Saint_Andrews_Queen.ttf); 
-}

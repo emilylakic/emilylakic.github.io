@@ -1,11 +1,10 @@
-
 @font-face { 
-  font-family: Sverige Script Decorated Demo Regular;
-  src: url(SverigeScriptDecorated_Demo.ttf); 
+  font-family: Chasing Embers Demo Version;
+  src: url(Chasing_Embers_Demo_Version.otf); 
 }
 body {
   background-color: #d8eff2; 
-  font-family: "Sverige Script Decorated Demo Regular";
+  font-family: "Chasing Embers Demo Version";
   color: black;
   font-size: 60px;
   text-align: center;

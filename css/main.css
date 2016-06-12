@@ -1,13 +1,13 @@
 
 body {
   background-color: #d8eff2; 
-  font-family: "Sverige_script";
+  font-family: "Saint Andrews Queen";
   color: black;
   font-size: 60px;
   text-align: center;
 }
 
 @font-face { 
-  font-family: Sverige_script;
-  src: url(Sverige.ttf); 
+  font-family: Saint Andrews Queen;
+  src: url(Saint_Andrews_Queen.ttf); 
 }

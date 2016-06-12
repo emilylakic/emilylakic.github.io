@@ -1,13 +1,13 @@
 
 body {
   background-color: #d8eff2; 
-  font-family: "Sverige";
+  font-family: "Sverige_script";
   color: black;
   font-size: 60px;
   text-align: center;
 }
 
 @font-face { 
-  font-family: Sverige;
+  font-family: Sverige_script;
   src: url(Sverige.ttf); 
 }

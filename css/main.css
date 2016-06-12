@@ -13,9 +13,9 @@ body {
 #Emily { 
   font-family: "Chasing Embers Demo Version";
   color: #c48d02;
-  font-size: 140px;
+  font-size: 180px;
   text-align: center; 
-  margin-left: 850px;
+  margin-left: 600px;
   margin-top: 4px;
 }
 
@@ -24,8 +24,8 @@ body {
   color: #c48d02;
   font-size: 140px;
   text-align: center; 
-  line-height: 7px;
-  margin-left: 875px;
+  line-height: 15px;
+  margin-left: 825px;
   margin-top: -85px;
 }
 

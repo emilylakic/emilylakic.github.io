@@ -1,5 +1,5 @@
 @font-face { 
-  font-family: SoftLine normal; 
+  font-family: SoftLine; 
   src: url(SoftLine.otf);
 }
 @font-face { 
@@ -37,6 +37,6 @@ body {
 #description { 
   color: white;
   font-size: 16px;
-  font-family: "SoftLine normal";
+  font-family: "SoftLine";
 }
   

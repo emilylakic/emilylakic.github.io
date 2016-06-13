@@ -2,6 +2,9 @@
   font-family: Chasing Embers Demo Version;
   src: url(Chasing_Embers_Demo_Version.otf); 
 }
+@font-face { 
+  font-family: Amber Shaie;
+  src: url(Amber_Shaie.ttf);
 body { 
   background-color: #d8eff2;
 }
@@ -32,8 +35,8 @@ img {
 }
   
 #font { 
-  font-family: Times;
-  color: blue;
+  font-family: "Amber Shaie";
+  color: #424242;
 }
   
 

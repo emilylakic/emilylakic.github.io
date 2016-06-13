@@ -20,6 +20,7 @@ img {
   width: 300px;
   height: 378px;
   margin-top: -250px;
+  .alignright { float: right; }
 }
 .text { 
   font-size: 23px;

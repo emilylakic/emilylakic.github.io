@@ -42,8 +42,8 @@ color: #d8eff2;
 img {
   width: 75px;
   height: 75px;
-  margin-top: 60px;
-  position: center;
+  margin-top: 40px;
+  margin-left: 400px;
 }
 a { 
   text-decoration: none;

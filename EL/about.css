@@ -23,7 +23,7 @@ img {
 }
 .text { 
   font-size: 23px;
-  line-height: -170px;
+  margin-top: -120px;
 }
 
 span {

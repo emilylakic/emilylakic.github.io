@@ -42,7 +42,8 @@ color: #d8eff2;
 img {
   width: 75px;
   height: 75px;
-  margin-top: 80px;
+  margin-top: 60px;
+  position: center;
 }
 a { 
   text-decoration: none;

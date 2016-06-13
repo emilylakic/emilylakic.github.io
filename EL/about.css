@@ -3,7 +3,7 @@
   src: url(Chasing_Embers_Demo_Version.otf); 
 }
 @font-face { 
-  font-family: Amber;
+  font-family: font2 Medium;
   src: url(amber_shaie.ttf); 
 }
 body { 
@@ -36,6 +36,6 @@ img {
 }
   
 #font { 
-  font-family: "Amber";
+  font-family: "font2 Medium";
   color: #d8eff2;
 }

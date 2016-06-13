@@ -6,7 +6,7 @@
   font-family: Amber Shaie;
   src: url(Amber_Shaie.ttf);
 body { 
-  background-color: #d8eff2;
+  background-color: #424242;
 }
 #header { 
  font-family: "Chasing Embers Demo Version";
@@ -27,7 +27,7 @@ img {
 
 #description {
   font-family: Tahoma;
-  color: black;
+  color: #d8eff2;
   font-size: 16px;
   margin-top: -230px;
   text-align: left;
@@ -36,7 +36,7 @@ img {
   
 #font { 
   font-family: "Amber Shaie";
-  color: #424242;
+  color: white;
 }
   
 

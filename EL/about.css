@@ -9,6 +9,7 @@ body {
  font-family: "Chasing Embers Demo Version";
  font-size: 190px;
  color: white;
+ text-shadow: 2px 2px #a3a3a3;
  text-align: center;
  margin-top: 15px;
 }

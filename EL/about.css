@@ -3,7 +3,7 @@
   src: url(Chasing_Embers_Demo_Version.otf); 
 }
 body { 
-  background-color: #d8eff2;
+  background-color: #424242;
 }
 #header { 
  font-family: "Chasing Embers Demo Version";
@@ -33,5 +33,5 @@ img {
   
 #font { 
   font-family: Times;
-  color: blue;
+  color: #d8eff2;
 }

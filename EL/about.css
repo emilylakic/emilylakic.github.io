@@ -9,8 +9,8 @@ body {
  font-family: "Chasing Embers Demo Version";
  font-size: 140px;
  color: white;
- position: center;
- margin-top: -50px;
+ text-align: center;
+ margin-top: -20px;
 }
 img { 
   margin-left: 800px;

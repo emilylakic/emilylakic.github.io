@@ -16,7 +16,6 @@ body {
  text-shadow: 2px 2px #a3a3a3;
  text-align: center;
  margin-top: -10px;
-
 }
 img { 
   margin-left: 830px;
@@ -25,7 +24,6 @@ img {
   height: 378px;
   margin-top: -290px;
 }
-
 #description {
   font-family: Tahoma;
   color: white;
@@ -34,8 +32,11 @@ img {
   text-align: left;
   line-height: 200%;
 }
-  
 #font { 
   font-family: "A Year Without Rain";
   color: #d8eff2;
+}
+h2 { 
+font-family: "A Year Without Rain";
+margin-top: -240px;
 }

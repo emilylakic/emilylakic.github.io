@@ -11,14 +11,14 @@ body {
  color: white;
  text-shadow: 2px 2px #a3a3a3;
  text-align: center;
- margin-top: -200px;
+ margin-top: -20px;
 }
 img { 
   margin-left: 800px;
   border: 5px white solid; 
   width: 300px;
   height: 450px;
-  margin-top: 90px;
+  margin-top: 150px;
 }
 .text { 
   font-size: 23px;

@@ -9,6 +9,7 @@ body {
  font-family: "Chasing Embers Demo Version";
  font-size: 90px;
  color: white;
+ position: center;
 }
 img { 
   margin-left: 800px;
@@ -16,10 +17,13 @@ img {
   width: 300px;
   height: 450px;
 }
+.text { 
+  font-size: 23px;
+}
 
-.text {
+p {
   font-family: Tahoma;
-  color: #F0F0F0;
+  color: black;
   font-size: 16px;
   
   

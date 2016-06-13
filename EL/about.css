@@ -1,3 +1,10 @@
 body { 
   background-color: #d8eff2;
 }
+img { 
+  position: right;
+  border: 5px white solid; 
+  width: 600px;
+  height: 900px;
+}
+

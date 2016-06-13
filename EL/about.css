@@ -10,6 +10,7 @@ body {
  font-size: 90px;
  color: white;
  position: center;
+ margin-top: -50px;
 }
 img { 
   margin-left: 800px;

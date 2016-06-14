@@ -37,6 +37,7 @@ body {
     font-family: "Chasing Embers Demo Version";
     font-size: 78px;
     color: #ff4f8d;
+    text-shadow: 2px 2px #ffb0cc;
 }
 #click { 
     text-align: center;

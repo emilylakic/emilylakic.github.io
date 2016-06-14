@@ -1,8 +1,8 @@
-@@font-face { 
+@font-face { 
   font-family: Adam; 
   src: url(Adam.otf); 
 } 
-font-face { 
+@font-face { 
   font-family: Chasing Embers Demo Version;
   src: url(Chasing_Embers_Demo_Version.otf); 
 }
@@ -47,12 +47,12 @@ img {
   width: 75px;
   height: 75px;
   margin-top: 25px;
-  margin-left: 560px;
+  margin-left: 550px;
 }
 #linkedin { 
   width: 75px;
   height: 75px;
-  margin-left: 100px;
+  margin-left: 95px;
   margin-top: -100px;
 }
 a { 

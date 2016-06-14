@@ -1,3 +1,7 @@
+@font-face { 
+  font-family: Chasing Embers Demo Version;
+  src: url(Chasing_Embers_Demo_Version.otf); 
+}
 body { 
   background-color: #424242;
   font-family: Tahoma;
@@ -8,12 +12,10 @@ body {
     float: left;
     width: 300px;
 }
-
 .img img {
     width: 100%;
     height: auto;
 }
-
 .desc {
     padding: 5px;
     text-align: center;
@@ -23,7 +25,7 @@ body {
 }
 #header {
     text-align: center;
-    font-family: Tahoma;
+    font-family: "Chasing Embers Demo Version";
     font-size: 30px;
     color: white;
 }
@@ -32,5 +34,4 @@ body {
     font-family: Tahoma;
     font-size: 20px;
     color: white;
-    
 }

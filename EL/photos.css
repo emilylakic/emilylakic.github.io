@@ -17,5 +17,20 @@ body {
 .desc {
     padding: 15px;
     text-align: center;
+    font-family: Times;
+    font-size: 20px;
+    color: black;
 }
-
+#header {
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 30px;
+    color: white;
+}
+#click { 
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 20px;
+    color: white;
+    
+}

@@ -48,8 +48,8 @@ img {
 #linkedin { 
   width: 75px;
   height: 75px;
-  margin-left: 1px;
-  margin-top: 50px;
+  margin-left: 50px;
+  margin-top: -50px;
 }
 a { 
   text-decoration: none;

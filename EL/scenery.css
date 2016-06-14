@@ -7,7 +7,9 @@ body {
 }
 #header { 
   font-family: "Chasing Embers Demo Version";
-  font-size: 190px;
+  font-size: 160px;
   color: #f6ffb0;
   text-shadow: 2px 2px #b9bf84;
+  text-align: center;
+  margin-top: -25px;
 }

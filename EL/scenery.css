@@ -6,6 +6,10 @@
   font-family: Adam; 
   src: url(Adam.otf); 
 } 
+@font-face { 
+  font-family: A Year Without Rain; 
+  src: url(A_Year_Without_Rain.ttf); 
+} 
 body { 
   background-color: #424242;
 }

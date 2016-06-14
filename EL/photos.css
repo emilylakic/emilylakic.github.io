@@ -29,8 +29,9 @@ body {
     padding: 5px;
     text-align: center;
     font-family: "A Year Without Rain";
-    font-size: 15px;
-    color: #c7527b;
+    font-size: 25px;
+    color: #ffb0cc;
+    text-shadow: 2px 2px #c7527b;
 }
 #header {
     text-align: center;

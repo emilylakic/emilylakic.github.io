@@ -24,3 +24,11 @@ body {
     width: 100%;
     height: auto;
 }
+.desc {
+    padding: 5px;
+    text-align: center;
+    font-family: "A Year Without Rain";
+    font-size: 25px;
+    color: #868a67;
+    text-shadow: 2px 2px #f6ffb0;
+}

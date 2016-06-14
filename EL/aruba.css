@@ -1,3 +1,7 @@
 body { 
-background-color: blue; 
+background-image: url("IMG_4598.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 1300px 867px;
 }

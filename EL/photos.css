@@ -2,6 +2,14 @@
   font-family: Chasing Embers Demo Version;
   src: url(Chasing_Embers_Demo_Version.otf); 
 }
+@font-face { 
+  font-family: Adam; 
+  src: url(Adam.otf); 
+} 
+@font-face { 
+  font-family: A Year Without Rain;
+  src: url(A_Year_Without_Rain.ttf); 
+}
 body { 
   background-color: #424242;
   font-family: Tahoma;
@@ -19,8 +27,8 @@ body {
 .desc {
     padding: 5px;
     text-align: center;
-    font-family: Times;
-    font-size: 20px;
+    font-family: "Adam";
+    font-size: 15px;
     color: black;
 }
 #header {
@@ -31,7 +39,7 @@ body {
 }
 #click { 
     text-align: center;
-    font-family: Tahoma;
+    font-family: "A Year Without Rain";
     font-size: 20px;
     color: white;
 }

@@ -1,7 +1,15 @@
+@font-face { 
+  font-family: Palm Beach; 
+  src: url("Palm_beach.ttf"); 
+}
 body { 
 background-image: url("http://i465.photobucket.com/albums/rr13/emmlakic/IMG_4543_zpsdatgxoqt.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: 1300px 867px;
+}
+.header { 
+  font-family: "Palm Beach";
+  font-size: 190px;
 }

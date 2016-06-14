@@ -1,4 +1,8 @@
-@font-face { 
+@@font-face { 
+  font-family: Adam; 
+  src: url(Adam.otf); 
+} 
+font-face { 
   font-family: Chasing Embers Demo Version;
   src: url(Chasing_Embers_Demo_Version.otf); 
 }
@@ -18,7 +22,7 @@ body {
  margin-top: -10px;
 }
 #description {
-  font-family: Tahoma;
+  font-family: "Adam";
   color: white;
   font-size: 16px;
   text-align: left;

@@ -27,19 +27,19 @@ body {
 .desc {
     padding: 5px;
     text-align: center;
-    font-family: "Adam";
+    font-family: "A Year Without Rain";
     font-size: 15px;
     color: #ff4f8d;
 }
 #header {
     text-align: center;
     font-family: "Chasing Embers Demo Version";
-    font-size: 30px;
+    font-size: 78px;
     color: #ff4f8d;
 }
 #click { 
     text-align: center;
-    font-family: "A Year Without Rain";
+    font-family: "Adam";
     font-size: 20px;
     color: white;
 }

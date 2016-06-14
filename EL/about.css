@@ -45,6 +45,10 @@ color: #d8eff2;
   margin-top: 25px;
   margin-left: 500px;
 }
+#linkedin { 
+  width: 75px;
+  height: 75px;
+}
 a { 
   text-decoration: none;
 }

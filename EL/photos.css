@@ -17,6 +17,7 @@ body {
 .img { 
   margin: 5px;
     border: 2px solid #ccc;
+    box-shadow: 10px 10px 5px #ffb0cc;
     float: left;
     width: 300px;
 }

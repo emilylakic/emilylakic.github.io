@@ -1,15 +1,17 @@
 @font-face { 
-  font-family: Palm Beach; 
-  src: url("Palm_beach.ttf"); 
+  font-family: Chasing Embers Demo Versioh; 
+  src: url("Chasing_Embers_Demo_Version.ttf"); 
 }
 body { 
-background-image: url("http://i465.photobucket.com/albums/rr13/emmlakic/IMG_4543_zpsdatgxoqt.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: 1280px 847px;
+  background-color: #424242;
 }
 p { 
-  font-family: "Palm Beach";
+  font-family: " ";
   font-size: 90px;
+}
+#header { 
+  font-family: "Chasing Embers Demo Version";
+  font-size: 115px;
+  color: #f6ffb0;
+  text-shadow: 2px 2px #b9bf84;
 }

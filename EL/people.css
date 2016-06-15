@@ -1,3 +1,49 @@
+@font-face { 
+  font-family: Chasing Embers Demo Version; 
+  src: url("Chasing_Embers_Demo_Version.otf"); 
+}
+@font-face { 
+  font-family: Adam; 
+  src: url(Adam.otf); 
+} 
+@font-face { 
+  font-family: A Year Without Rain; 
+  src: url(A_Year_Without_Rain.ttf); 
+} 
 body { 
-  background-color: #424242; 
+  background-color: #424242;
+}
+#header { 
+  font-family: "Chasing Embers Demo Version";
+  font-size: 160px;
+  color: #f9e8ff;
+  text-shadow: 2px 2px #c0adc7;
+  text-align: center;
+  margin-top: -25px;
+}
+.img { 
+  margin: 5px;
+  border: 2px solid #000000;
+  box-shadow: 10px 10px 5px #545454;
+  float: left;
+   width: 300px;
+}
+.img img {
+    width: 100%;
+    height: auto;
+}
+.desc {
+    padding: 5px;
+    text-align: center;
+    font-family: "A Year Without Rain";
+    font-size: 25px;
+    color: #c0adc7;
+    text-shadow: 2px 2px #f9e8ff;
+}
+#click { 
+  text-align: center;
+    font-family: "Adam";
+    font-size: 20px;
+    color: white;
+    font-style: italic;
 }

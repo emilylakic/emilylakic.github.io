@@ -9,9 +9,15 @@ body {
   color: #c6ec79;
 }
 
-#pic {
-  height: 42;
-  width: 42;
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
   box-shadow: 10px 10px 5px #c6ec79;
 }
   

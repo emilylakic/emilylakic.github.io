@@ -10,6 +10,8 @@ body {
 }
 
 #pic {
-  height: 42 ;
-  width: 42 ;
+  height: 42;
+  width: 42;
+  box-shadow: 10px 10px 5px #c6ec79;
+}
   

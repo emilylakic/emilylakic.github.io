@@ -3,13 +3,13 @@ body {
 }
 
 @font-face {
-    font-family: bebasNeue;
+    font-family: "bebasNeue";
     src: url(BebasNeue.otf);
 }
 
 #header { 
    text-align: center;
-  font-family: bebasNeue;
+  font-family: "bebasNeue", Verdana, Tahoma;
   font-size: 60px;
   color: #c6ec79;
 }

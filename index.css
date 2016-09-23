@@ -28,10 +28,15 @@ img {
   font-size: 50px;
   color: #c6ec79;
 } 
+
 #facts { 
   font-family: "bebasNeue";
   font-size: 50px;
   color: #c6ec79;
+}
+
+p { 
+  color: white;
 }
   
   

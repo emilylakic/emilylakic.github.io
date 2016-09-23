@@ -21,5 +21,16 @@ img {
    margin-left: auto;
    margin-right: auto;
 }
+
+#aboutme { 
+  font-family: "bebasNeue";
+  font-size: 50px;
+  color: #c6ec79;
+} 
+#facts { 
+  font-family: "bebasNeue";
+  font-size: 50px;
+  color: #c6ec79;
+}
   
   

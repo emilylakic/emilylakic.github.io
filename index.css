@@ -3,8 +3,8 @@ body {
 }
 
 #header { 
+   text-align: center;
   font-family: Trebuchet;
   font-size: 60px;
   color: #c6ec79;
-  text-align: center;
 }

@@ -2,6 +2,8 @@ body {
   background: #808080; 
 }
 
-head { 
-  font: "gulim";
+#header { 
+  font-family: Trebuchet;
+  font-size: 60px;
+  color: #bf8cd9;
 }

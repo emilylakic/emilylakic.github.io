@@ -23,19 +23,12 @@ img {
    border: white 3px;
 }
 
-#intro { 
+a { 
   font-family: "bebasNeue";
   text-shadow: 2px 2px white;
   font-size: 50px;
   color: #c6ec79;
 } 
-
-#facts { 
-  font-family: "bebasNeue";
-  text-shadow: 2px 2px white;
-  font-size: 50px;
-  color: #c6ec79;
-}
 
 p { 
   color: white;

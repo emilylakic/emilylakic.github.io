@@ -2,9 +2,14 @@ body {
   background: #808080; 
 }
 
+@font-face {
+    font-family: bebasNeue;
+    src: url(BebasNeue.otf);
+}
+
 #header { 
    text-align: center;
-  font-family: Trebuchet;
+  font-family: 'bebasNeue';
   font-size: 60px;
   color: #c6ec79;
 }
@@ -16,4 +21,5 @@ img {
    margin-left: auto;
    margin-right: auto;
 }
+  
   

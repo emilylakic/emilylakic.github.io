@@ -30,7 +30,7 @@ a {
   color: #c6ec79;
 } 
 
-a.hover {
+a:hover {
    text-shadow: 2px 2px white;
 }
 

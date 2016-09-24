@@ -33,8 +33,8 @@ a {
   color: #c6ec79;
 } 
 
-/* Shrink */
-.hvr-shrink {
+/* Grow */
+.hvr-grow {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -48,9 +48,9 @@ a {
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 a:hover {
@@ -60,5 +60,3 @@ a:hover {
 p { 
   color: white;
 }
-  
-  

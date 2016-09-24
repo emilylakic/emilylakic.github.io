@@ -22,10 +22,8 @@ img {
    margin-right: auto;
    border: white 3px;
 }
-.links a p {display:none;}
-.links a:hover p {display: block;}
-.links a:hover {display: block;}
-  
+
+ 
 a { 
   font-family: "bebasNeue";
   text-decoration: none;

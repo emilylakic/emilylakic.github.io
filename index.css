@@ -58,8 +58,56 @@ p {
   transform: scale(1.1);
 }
 
-/* Glow */
-.hvr-glow {
+/* Icon Hang */
+@-webkit-keyframes hvr-icon-hang {
+  0% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+
+  50% {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+
+  100% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+
+@keyframes hvr-icon-hang {
+  0% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+
+  50% {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+
+  100% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+
+@-webkit-keyframes hvr-icon-hang-sink {
+  100% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+
+@keyframes hvr-icon-hang-sink {
+  100% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+
+.hvr-icon-hang {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -68,11 +116,33 @@ p {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  padding-right: 2.2em;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
 }
-.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+.hvr-icon-hang:before {
+  content: "\f078";
+  position: absolute;
+  right: 1em;
+  padding: 0 1px;
+  font-family: FontAwesome;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.hvr-icon-hang:hover:before, .hvr-icon-hang:focus:before, .hvr-icon-hang:active:before {
+  -webkit-animation-name: hvr-icon-hang-sink, hvr-icon-hang;
+  animation-name: hvr-icon-hang-sink, hvr-icon-hang;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
 }

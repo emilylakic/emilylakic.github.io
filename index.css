@@ -38,6 +38,11 @@ p {
   color: white;
 }
 
+#here { 
+  font-size: 12px;
+  color: black;
+}
+
 /* Grow */
 .hvr-grow {
   display: inline-block;

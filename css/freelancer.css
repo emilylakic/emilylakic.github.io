@@ -67,7 +67,7 @@ hr.star-primary:after {
 .img-centered {
   margin: 0 auto;
 }
-.img { 
+.img-responsive { 
   width: 80px;
   height: 75px;
 }

@@ -76,6 +76,8 @@ header {
   text-align: center;
   background: #3d3d3d;
   color: white;
+  background-size: cover;
+  background-image: url('http://wallpapercave.com/wp/MuIV2JN.jpg')
 }
 header .container {
   padding-top: 100px;

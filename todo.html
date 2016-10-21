@@ -1,15 +1,15 @@
-<!DOCTYPE HTML>
+<HTML>
 <head>
   <title>To-Do</title>
   <style>
 body {
-  background: linear-gradient(lightblue, white);
+  background: green;
 }
   </style>
 </head>
 <body>
   <h1>To-Do app!!</h1>
-  <h3>Enter a To-Do below</h2>
+  <h3>Enter a To-Do below</h3>
   <input id="input-box"></input>
   <button onclick="addItem()">Add!</button>
   <div id="todo-container">
@@ -17,8 +17,11 @@ body {
 </body>
 <script>
 function addItem() {
-  var inputBox = document.getElementById("input-box"); <!--access input box-->
+  var inputBox = document.getElementById("input-box"); //access input box
   var text = inputBox.value;
+  if (text == "")
+    return;
+  inputBox.value = "";
   console.log(text);
   var newitem = document.createElement('div');
   newitem.innerHTML = text;

@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<head>
+  <title>To-Do</title>
+  <style>
+body {
+  background : linear-gradient(lightblue, white);
+}
+  </style>
+</head>
+<body>
+  <h1>To-Do app!!</h1>
+  <h3>Enter a To-Do below</h2>
+  <input id="input-box"></input>
+  <button onclick="addItem()">Add!</button>
+  <div id="todo-container">
+  </div>
+</body>
+<script>
+function addItem() {
+  var inputBox = document.getElementById("input-box"); <!--access input box-->
+  var text = inputBox.value;
+  var newitem = document.createElement('div');
+  newitem.innerHTML = text;
+  var todoContainer = document.getItemById('todo-container');
+  todoContainer.appendChild(newitem);
+}
+</script>
+</HTML>

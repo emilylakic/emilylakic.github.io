@@ -19,10 +19,18 @@ body {
 function addItem() {
   var inputBox = document.getElementById("input-box"); <!--access input box-->
   var text = inputBox.value;
+  console.log(text);
   var newitem = document.createElement('div');
   newitem.innerHTML = text;
-  var todoContainer = document.getItemById('todo-container');
-  todoContainer.appendChild(newitem);
+  newitem.className = "item";
+  var deleteButton = document.createElement('button');
+    deleteButton.innerText = "x";
+    deleteButton.addEventListener("click",function()) {
+      this.parentElement.style.display = "none";
+    });
+      newitem.appendchild(deleteButton);
+      var todoContainer = document.getElementById('todo-container');
+      todoContainer.appendChild(newitem);
 }
 </script>
 </HTML>

@@ -217,14 +217,14 @@ body {
   background-color: #ffffff;
 }
 a {
-  color: #34495e;
+  color: #B8ACD1;
   text-decoration: none;
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
 a:hover,
 a:focus {
-  color: #34495e;
+  color: #B8ACD1;
   text-decoration: none;
 }
 a:focus {

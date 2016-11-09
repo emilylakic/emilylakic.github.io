@@ -204,8 +204,8 @@ you can use the generic selector below, but it's slower:
   content: "\e000";
 }
 .dropdown-arrow-inverse {
-  border-bottom-color: #34495e !important;
-  border-top-color: #34495e !important;
+  border-bottom-color: #B8ACD1 !important;
+  border-top-color: #B8ACD1 !important;
 }
 body {
 	height: 100%;

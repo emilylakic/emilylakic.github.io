@@ -208,9 +208,9 @@ you can use the generic selector below, but it's slower:
   border-top-color: #9EB6BC !important;
 }
 body {
-	height: 100%;
-	width: 100%;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+height: 100%;
+width: 100%;
+  font-family: "Dancing+Script", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.72222;
   color: #9EB6BC;

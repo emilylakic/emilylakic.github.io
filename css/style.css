@@ -1,11 +1,11 @@
-/*
-Theme: Flatfy Theme
-Author: Andrea Galanti
-Bootstrap Version 
-Build: 1.0
-http://www.andreagalanti.it
-*/
-
+/*Bebas Kai*/
+@font-face { 
+  font-family: 'BebasKai';
+  src: url('../fonts/bebas/BebasKai.otf');
+  font-weight: 900;
+  font-style: normal;
+}
+/*Lato*/
 @font-face {
   font-family: 'Lato';
   src: url('../fonts/lato/lato-black.eot');

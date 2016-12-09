@@ -1,8 +1,11 @@
 /*Chasing Embers*/
-@font-face {
-	font-family: 'Chasing_Embers';
-	src: url(../fonts/chasingembers/Chasing_Embers.ttf);
+@font-face { 
+  font-family: 'Chasing_Embers';
+  src: url('../fonts/chasingembers/Chasing_Embers.ttf');
+  font-weight: 900;
+  font-style: normal;
 }
+
 /*Bebas Kai*/
 @font-face { 
   font-family: 'BebasKai';
@@ -10,6 +13,7 @@
   font-weight: 900;
   font-style: normal;
 }
+
 /*Lato*/
 @font-face {
   font-family: 'Lato';

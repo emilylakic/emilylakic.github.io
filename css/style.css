@@ -212,8 +212,8 @@ you can use the generic selector below, but it's slower:
   content: "\e000";
 }
 .dropdown-arrow-inverse {
-  border-bottom-color: #9EB6BC !important;
-  border-top-color: #9EB6BC !important;
+  border-bottom-color: #102d3b !important;
+  border-top-color: #102d3b !important;
 }
 body {
 height: 100%;
@@ -221,11 +221,11 @@ width: 100%;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.72222;
-  color: #9EB6BC;
+  color: #102d3b;
   background-color: #65737e;
 }
 a {
-  color: #9EB6BC;
+  color: #102d3b;
   text-decoration: none;
   -webkit-transition: 0.25s;
   transition: 0.25s;

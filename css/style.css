@@ -221,11 +221,11 @@ width: 100%;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.72222;
-  color: #102d3b;
+  color: #102d3b; /*dark blue color*/
   background-color: #65737e;
 }
 a {
-  color: #102d3b;
+  color: #4a575e;
   text-decoration: none;
   -webkit-transition: 0.25s;
   transition: 0.25s;

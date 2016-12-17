@@ -14,9 +14,9 @@ body, html {
 	overflow-x:hidden;
 }
 
-::-moz-selection{background:#1abc9c;color:white}
+::-moz-selection{background:#b7c5d4;color:black}
 
-::selection{background:#1abc9c;color:white}
+::selection{background:#b7c5d4;color:black}
 
 .abcen{position: absolute;bottom: 8%;}
 
@@ -166,11 +166,11 @@ width: 50px;
 	font-size: 30px;
 	text-decoration: none;
 	list-style-type: none;
-	color: #1abc9c; 
+	color: #b7c5d4; 
 }
 
 .social > a:hover {
-	color: #1abc9c; 
+	color: #b7c5d4; 
 }
 
 .box-icon {
@@ -189,12 +189,12 @@ width: 50px;
 }
 
 .box-icon:hover {
-	background-color: #1abc9c;
+	background-color: #b7c5d4;
 	color: #fff;
 }
 
 .owl-theme .owl-controls .owl-page span {
-background: #1abc9c !important;
+background: #b7c5d4 !important;
 }
 
 /* Nav */
@@ -512,7 +512,7 @@ color: #ECEBEB;
 
 .content-style-form-4 form button:focus,
 .content-style-form-4 form button:hover {
-	background: #1abc9c;
+	background: #b7c5d4;
 }
 
 .js .content-style-form-4 p {
@@ -894,7 +894,7 @@ color: #ECEBEB;
 
 .morph-button-inflow-1 .morph-content .morph-clone {
 	color: #FFFFFF;
-	background: #1abc9c;
+	background: #b7c5d4;
 }
 
 .morph-button-inflow-2 {

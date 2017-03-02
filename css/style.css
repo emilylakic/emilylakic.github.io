@@ -856,7 +856,7 @@ fieldset[disabled] .btn-inverse.active {
   padding-right: 30px;
 }
 .btn-link {
-  color: #16a085;
+  color: black;
 }
 .btn-link:hover,
 .btn-link:focus {

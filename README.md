@@ -1,4 +1,2 @@
-#[emilylakic.github.io] (https://emilylakic.github.io)
-
-##My personal website
+#[emilylakic.github.io] (https://emilylakic.github.io) | Personal Website
 

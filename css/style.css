@@ -221,8 +221,8 @@ width: 100%;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.72222;
-  color: black; /*dark blue color*/ /*this is the color of the header text for each section. as well as the text paragraphs for BIU, HvsH, and the Python game*/
-  background-color: orange;
+  color: #000000; /*dark blue color*/ /*this is the color of the header text for each section. as well as the text paragraphs for BIU, HvsH, and the Python game*/
+  background-color: #c97d42;
 }
 a {
   color: #707c80;

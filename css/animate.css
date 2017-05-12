@@ -8,8 +8,8 @@ Copyright (c) 2013 Daniel Eden
 */
 
 .icon:hover {
-  -webkit-animation: tada .9s infinite;
-  animation: tada .9s infinite;
+  -webkit-animation: tada 1.2s;
+  animation: tada 1.2s;
 }
 
 .animated {

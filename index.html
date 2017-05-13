@@ -132,8 +132,10 @@
 			font-family: "nutellaBold";
 			src: url(../fonts/nutellaBold.ttf);
 		}
-		#size { 
-			font-size: 50px;
+		.visible {
+  			visibility: visible;
+  			opacity: 1;
+  			transition: opacity 2s linear;
 		}
 	</style>
 
@@ -144,7 +146,7 @@
 		<div id="status"></div>
 	</div>
     	<div class="intro-header">
-		<img align="left" width="90px" src="/ELfavicon.png"/>
+		<img class="visible" align="left" width="80px" src="/ELfavicon.png"/>
 		<div class="col-xs-12 img-center abcen1">
 		</div>  
 		<div class="col-xs-12 text-center abcen wow fadeIn">

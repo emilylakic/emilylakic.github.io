@@ -186,20 +186,35 @@ position: fixed;
 	margin-left: 90%;
 }
 /*TRY*/
-.fieldBlock {
-display: block;
-background-color: white;
-width: 600px;
-float: left;
-padding: 10px;
+#header {
+    width: 100%;
+    background-color: red;
 }
-
-.title {
-font-weight: bold;
+.container {
+    width: 300px;
+    margin: auto;
 }
-
-input {
-font-size: 1.1em;
+#first {
+    width: 100px;
+    float: left;
+    height: 300px;
+    background-color: blue;
+}
+#second {
+    width: 200px;
+    float: left;
+    height: 300px;
+    background-color: green;
+    color: white;
+}
+#clear {
+    clear: both;
+}
+a {
+    color: white;
+}
+* {
+    color: white;
 }
 /*TRY*/
 </style>
@@ -310,16 +325,18 @@ font-size: 1.1em;
           and <b><a href="https://spoonuniversity.com/author/emilylakic">Spoon University</a></b>.</div>
       
 <!--TRY-->	    
-<div class="fieldBlock">
-    <div class="title">Company name</div>
-	<p>Hello</p>
-    <!--<input id="company" value="Hello hi hi" size="15"/>-->
+
+<div id="header">
+    <div class='container'>Emily</div>
 </div>
-    
-<div class="fieldBlock">
-    <div class="title">Contact name</div>
-	<p>Emily</p>
-</div>
+<div class='container'>
+    <div id="first"></div>
+    <div id="second"><a href="https://br.linkedin.com/in/danilosabbagh" target="new">my linkedin</a>
+    </div>
+    <div id="clear"></div>
+</div>    
+	   	    
+	    
 <!--TRY-->
      
       </div>

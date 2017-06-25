@@ -2973,14 +2973,14 @@ input[type="submit"].btn.btn-mini {
 .btn-link {
   border-color: transparent;
   cursor: pointer;
-  color: #3fbf79;
+  color: yellow;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #2c8555;
+  color: yellow;
   text-decoration: underline;
   background-color: transparent;
 }

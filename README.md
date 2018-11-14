@@ -1,2 +1,2 @@
-http://emilylakic.com | Personal Website
+http://emilylakic.github.io | Personal Website
 

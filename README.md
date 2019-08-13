@@ -1,2 +1,1 @@
-http://emilylakic.com | Personal Website
-
+http://emilylakic.com

@@ -1,0 +1,44 @@
+x: 5.14286
+y: 4.85714
+Theta: 0.756835
+End of Projection
+x: 5.14286
+y: 4.85714
+Theta: -2.16739
+End of Projection
+x: 3.28571
+y: 4.85714
+Theta: 3.1268
+End of Projection
+x: 3.28571
+y: 3.14286
+Theta: -1.56416
+End of Projection
+x: 5.14286
+y: 3.14286
+Theta: 0.00450853
+End of Projection
+x: 3.28571
+y: 3.14286
+Theta: 3.12469
+End of Projection
+x: 3.28571
+y: 1.71429
+Theta: -1.56775
+End of Projection
+x: 5.14286
+y: 1.71429
+Theta: 0.00193988
+End of Projection
+x: 5.14286
+y: 4.85714
+Theta: 1.57132
+End of Projection
+x: 5.14286
+y: 1.71429
+Theta: -1.58403
+End of Projection
+x: 7.42857
+y: 1.71429
+Theta: 0.00533987
+End of Projection

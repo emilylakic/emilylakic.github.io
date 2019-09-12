@@ -1,4 +1,4 @@
-goToGoalturtleOrientation/*Code developed with help of TurtlesimPositionController and wiki.ros.org
+/*Code developed with help of TurtlesimPositionController and wiki.ros.org
 https://github.com/utari/UTARI_ROSTutorials/wiki/TurtlesimPositionController-Tutorial*/
 
 #include "ros/ros.h"

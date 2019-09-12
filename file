@@ -1,0 +1,199 @@
+/*Code developed with help of TurtlesimPositionController and wiki.ros.org
+https://github.com/utari/UTARI_ROSTutorials/wiki/TurtlesimPositionController-Tutorial*/
+
+#include "ros/ros.h"
+#include "geometry_msgs/Twist.h"
+#include "std_msgs/String.h"
+#include "turtlesim/Pose.h"
+#include <sstream>
+#include <fstream>
+#include <limits>
+
+using namespace std;
+
+//ros::Publisher velocity_publisher;
+//ros::Subscriber ComPose_sub;
+
+// Function declarations
+void rotate(double angular_speed, double angle, bool cloclwise);	//this will rotate the turtle at specified angle from its current angle
+double degrees2radians(double angle_in_degrees);
+double setDesiredOrientation(double desired_angle_radians); //this will rotate the turtle at an absolute angle, whatever its current angle is
+//void CurPoseCallback(const turtlesim::Pose::ConstPtr& msg);
+void ComPoseCallback(const turtlesim::Pose::ConstPtr& msg);	//Callback fn everytime the turtle pose msg is published over the /turtle1/pose topic.
+void moveGoalLinear(turtlesim::Pose goal_pose);	//this will move robot to goal
+double getDistance(double x1, double y1, double x2, double y2);
+void readGoalPosesFromFile();
+
+// Global Variables
+turtlesim::Pose TurtlePose;
+geometry_msgs::Twist vel_msg;
+const double PI = 3.14159265358979323846;
+
+// Call back to send new current Pose msgs
+void ComPoseCallback(const turtlesim::Pose::ConstPtr& msg) {
+    TurtlePose.x = msg->x;
+    TurtlePose.y = msg->y;
+    TurtlePose.theta = msg->theta;
+    //return
+}
+
+int main(int argc, char **argv) {
+    //We will start with a bare bones ROS node and build up. Place the following .cpp source code into the src/ folder, and the necessary line in CMakesList.txt to compile
+    //This will register another node with roscore with no publishers or subscribers embedded in it
+    ros::init(argc, argv, "LakicE"); //Connect to roscore
+    ros::NodeHandle n; //Node object
+    double speed = 4.0;
+    double distance = 7.0;
+    bool isForward = 1;
+
+    /*double angular_speed;
+    double angle;
+    bool clockwise;
+
+    speed = 2.0;
+    distance = 5.0;
+    isForward = 1;*/
+
+    //ros::Subscriber ComPose_sub = n.subscribe("/turtle1/PositionCommand", 5, ComPoseCallback);
+    ros::Publisher velocity_publisher = n.advertise<geometry_msgs::Twist>("/turtle1/cmd_vel", 1000); //100?
+    ros::Subscriber ComPose_sub = n.subscribe("/turtle1/pose", 10, ComPoseCallback);
+
+    //ROS_INFO("\n\n\n *Begin Testing*\n");
+
+    //Print out turtle coordinates from .txt file
+    readGoalPosesFromFile();
+
+    //Ensures ctrl+c will stop code
+    ros::spin();
+    return 0;
+}
+
+void readGoalPosesFromFile() {
+
+    string line;
+    ifstream poseFile("/home/emily/catkin_ws/src/LakicE/emcoords.txt");
+    if (poseFile.is_open()) {
+        while (getline(poseFile, line)) {
+            if (line.find(",") != string::npos) {
+                int splitIndex = line.find(",");
+                string x_str = line.substr(0, splitIndex);//add the part up to comma to x
+                string y_str = line.substr(splitIndex + 1, string::npos); //skip comma, put rest in y
+
+                float x = strtof(x_str.c_str(),0);
+                float y = strtof(y_str.c_str(),0);
+
+                x = x*10/350;
+                y = 10 - y*10/350;
+
+                cout <<"x: " << x << endl;
+                cout <<"y: " << y << endl;
+                //cout << x << " " << y << endl;
+
+                turtlesim::Pose goal_pose;
+                goal_pose.x = x;
+                goal_pose.y = y;
+                goal_pose.theta = 0;
+                moveGoalLinear(goal_pose);
+            }
+        }
+        poseFile.close();
+    }
+
+    else
+        cout << "ERROR importing file";
+}
+
+
+void rotate (double angular_speed, double relative_angle, bool clockwise) {
+/*Since we are just rotating the turtle, we don't need the linear components,
+and, depending on the user's input we decide if the movement will be clockwise
+or counter-clockwise*/
+	geometry_msgs::Twist vel_msg;
+    //We won't use linear components
+	   vel_msg.linear.x=0;
+	   vel_msg.linear.y=0;
+	   vel_msg.linear.z=0;
+	   vel_msg.angular.x=0;
+	   vel_msg.angular.y=0;
+     //Checking if our movement is CW or CCW
+	   if (clockwise)
+	   	vel_msg.angular.z = -abs(angular_speed);
+	   else
+	   	vel_msg.angular.z = abs(angular_speed);
+     //Setting the current time for distance calculus
+	   double t0 = ros::Time::now().toSec();
+	   double current_angle = 0.0;
+	   ros::Rate loop_rate(1000);
+
+     //Convert while loop in wiki.ros.org to c++
+	   do {
+		   ros::Publisher velocity_publisher.publish(vel_msg);
+		   double t1 = ros::Time::now().toSec(); //t1 = rospy.Time.now().to_sec()
+		   current_angle = angular_speed * (t1-t0);
+		   ros::spinOnce();
+		   loop_rate.sleep();
+       //Forcing our robot to stop
+	   } while(current_angle < relative_angle);
+	   vel_msg.angular.z = 0;
+	   ros::Publisher velocity_publisher.publish(vel_msg);
+}
+
+//Converting from angles to radians
+double degrees2radians(double angle_in_degrees) {
+	//return angle_in_degrees *PI /180.0;
+  return angle_in_degrees*2*PI/360.0;
+}
+
+double getDistance(double x1, double y1, double x2, double y2)
+{
+	return sqrt(pow((x2-x1),2) + pow((y2-y1),2));
+}
+
+double setDesiredOrientation(double desired_angle_radians)
+{
+	double relative_angle_radians = desired_angle_radians - TurtlePose.theta;
+	bool clockwise = ((relative_angle_radians<0)?true:false);
+	rotate (abs(relative_angle_radians), abs(relative_angle_radians), clockwise);
+}
+
+//Get Error Ang
+void moveGoalLinear(turtlesim::Pose goal_pose){
+	geometry_msgs::Twist vel_msg;
+  float min = numeric_limits<float>::max(); //std
+  float localMin = numeric_limits<float>::max(); //std
+
+  float Ey = goal_pose.y - TurtlePose.y; //may have to make these doubles
+  float Ex = goal_pose.x - TurtlePose.x; //may have to make these doubles
+
+	ros::Rate loop_rate(10);
+
+  //atan2 = doubles, atan2f = float
+    float desiredTheta = atan2f(Ey, Ex);
+    cout << "Desired Theta: " << desiredTheta << endl;
+	setDesiredOrientation(desiredTheta);
+    loop_rate.sleep();
+
+	do {
+        min = localMin;
+
+		vel_msg.linear.x = 1.5*getDistance(TurtlePose.x, TurtlePose.y, goal_pose.x, goal_pose.y);
+		vel_msg.linear.y = 0;
+		vel_msg.linear.z = 0;
+		//angular velocity
+		vel_msg.angular.x = 0;
+		vel_msg.angular.y = 0;
+		vel_msg.angular.z = 0;
+
+		ros::Publisher velocity_publisher.publish(vel_msg);
+
+		ros::spinOnce();
+		loop_rate.sleep();
+    localMin = getDistance(TurtlePose.x, TurtlePose.y, goal_pose.x, goal_pose.y);
+	} while(abs(localMin) < abs(min));
+
+	cout<<"End of Projection"<<endl;
+  //Return back to original
+	vel_msg.linear.x = 0;
+	vel_msg.angular.z = 0;
+	ros::Publisher velocity_publisher.publish(vel_msg);
+}

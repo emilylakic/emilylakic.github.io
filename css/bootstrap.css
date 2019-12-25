@@ -2076,15 +2076,6 @@ fieldset[disabled] .btn-default.active {
   color: #95a5a6;
   background-color: #ffffff;
 }
-
-.fade {
-  opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
-  transition: opacity 0.15s linear;
-}
-.fade.in {
-  opacity: 1;
-}
 .collapse {
   display: none;
 }
@@ -5265,9 +5256,6 @@ button.close {
 }
 .hide {
   display: none !important;
-}
-.show {
-  display: block !important;
 }
 .invisible {
   visibility: hidden;

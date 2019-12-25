@@ -321,11 +321,6 @@ h4,
 .h4 {
   font-size: 20px;
 }
-p {
-  font-size: 16px;
-  line-height: 1.72222;
-  margin: 0 0 15px;
-}
 li{list-style-type:none}
 .white {color:white}
 .hidden { visibility: hidden;}

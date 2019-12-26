@@ -50,6 +50,21 @@ new WOW().init();
 <script src="js/modernizr-2.8.3.min.js"></script>
 	
 <style>	
+.blink {
+  animation: blink 0.5s infinite;
+}
+@keyframes blink{
+  to { opacity: .0; }
+}
+.flex {
+	display: flex;
+}
+.header-sub-title {
+  color: #fff;
+  font-family: "Courier";
+  font-size: 20px;
+  padding: 0.1em;
+}
 #mark {
       margin-bottom: 180px;
     }
@@ -298,7 +313,7 @@ a {
     <div class="container">
 
       <!-- About Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+      <!--<h2 class="page-section-heading text-center text-uppercase text-white">About</h2>-->
 
       <!-- Icon Divider -->
       <div class="divider-custom divider-light">
@@ -312,7 +327,10 @@ a {
       <!-- About Section Content -->
       <div class="row">
         <div class="col-lg-4 ml-auto">
-          <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+		<div class="flex">
+			<p class="header-sub-title" id="word"></p><p class="header-sub-title blink">|</p>
+		</div>
+          <p class="lead">Welcome to my website.</p>
         </div>
         <div class="col-lg-4 mr-auto">
           <p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>

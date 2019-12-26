@@ -50,6 +50,37 @@ new WOW().init();
 <script src="js/modernizr-2.8.3.min.js"></script>
 	
 <style>	
+svg {
+	position: absolute;
+ width: 100%;
+ height: 100%;
+ visibility: hidden;
+ 
+}
+.trailLine {
+	stroke:var(--line-stroke);
+	stroke-width: var(--line-stroke-width);
+	fill: none;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-dasharray: 4 10
+}
+.gridRect {
+	stroke:var(--circle-stroke);
+	
+	
+}
+#grid {
+	
+	opacity: 0.085;
+	
+}
+#glowAlpha {
+	flood-color: var(--circle-stroke)
+}
+.plane {
+	fill:#CCC;
+}
 .blink {
   animation: blink 0.5s infinite;
 }
@@ -321,6 +352,56 @@ a {
       <small>Copyright &copy; Emily Lakic 2019</small>
     </div>
   </section>
+	
+	<svg id="patternSVG" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+	<pattern id="sqrs" width="20" height="20" patternUnits="userSpaceOnUse" id="pulseBg" viewBox="0 0 20 20" >
+			<rect class="gridRect" x="0" y="0" width="20" height="20"  fill="none"/>		
+	</pattern>
+	</defs>
+	<rect id="grid"  class="grid" y="-100" fill="url(#sqrs)" width="100%" height="200%" stroke="none"/>
+	
+	
+	</svg>
+
+<svg id="mainSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+	<defs>
+
+
+      <filter id="glow" x="-100%" y="-100%" width="250%" height="250%">
+        <feGaussianBlur stdDeviation="8" result="coloredBlur" />
+        <feOffset dx="0" dy="0" result="offsetblur"></feOffset>
+        <feFlood id="glowAlpha" flood-color="#FFF" flood-opacity="1"></feFlood>
+        <feComposite in2="offsetblur" operator="in"></feComposite>
+        <feMerge>
+          <feMergeNode/>          
+          <feMergeNode in="SourceGraphic"></feMergeNode>
+        </feMerge>
+      </filter>	
+</defs>
+	
+	<g >
+		<polyline class="trailLine"/>
+		<polyline class="trailLine"/>
+		<polyline class="trailLine"/>
+		<polyline class="trailLine"/>
+		<polyline class="trailLine"/>
+		<polyline class="trailLine"/>
+			<path class="plane" d="M20,13.7v-1.4l-8.6-5.1V3.5c0-1-0.6-3.5-1.4-3.5S8.6,2.4,8.6,3.5v3.7L0,12.2v1.4l8.6-1.8l0.5,5l-2.5,1.9V20
+    l3.5-0.8l3.5,0.8v-1.2L11,16.9l0.5-5L20,13.7z" />
+			<path class="plane" d="M20,13.7v-1.4l-8.6-5.1V3.5c0-1-0.6-3.5-1.4-3.5S8.6,2.4,8.6,3.5v3.7L0,12.2v1.4l8.6-1.8l0.5,5l-2.5,1.9V20
+    l3.5-0.8l3.5,0.8v-1.2L11,16.9l0.5-5L20,13.7z" />
+			<path class="plane" d="M20,13.7v-1.4l-8.6-5.1V3.5c0-1-0.6-3.5-1.4-3.5S8.6,2.4,8.6,3.5v3.7L0,12.2v1.4l8.6-1.8l0.5,5l-2.5,1.9V20
+    l3.5-0.8l3.5,0.8v-1.2L11,16.9l0.5-5L20,13.7z" />
+			<path class="plane" d="M20,13.7v-1.4l-8.6-5.1V3.5c0-1-0.6-3.5-1.4-3.5S8.6,2.4,8.6,3.5v3.7L0,12.2v1.4l8.6-1.8l0.5,5l-2.5,1.9V20
+    l3.5-0.8l3.5,0.8v-1.2L11,16.9l0.5-5L20,13.7z" />
+			<path class="plane" d="M20,13.7v-1.4l-8.6-5.1V3.5c0-1-0.6-3.5-1.4-3.5S8.6,2.4,8.6,3.5v3.7L0,12.2v1.4l8.6-1.8l0.5,5l-2.5,1.9V20
+    l3.5-0.8l3.5,0.8v-1.2L11,16.9l0.5-5L20,13.7z" />
+			<path class="plane" d="M20,13.7v-1.4l-8.6-5.1V3.5c0-1-0.6-3.5-1.4-3.5S8.6,2.4,8.6,3.5v3.7L0,12.2v1.4l8.6-1.8l0.5,5l-2.5,1.9V20
+    l3.5-0.8l3.5,0.8v-1.2L11,16.9l0.5-5L20,13.7z" />
+		</g>
+
+</svg>
 
   <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
   <div class="scroll-to-top d-lg-none position-fixed ">
@@ -591,6 +672,7 @@ a {
         <script src="js/owl.carousel.js"></script>
         <script src="js/script.js"></script>
 	<script src="js/typewriter.js"></script>
+	<script src="js/plane.js"></script>
   
         <!-- StikyMenu -->
         <script src="js/stickUp.min.js"></script>

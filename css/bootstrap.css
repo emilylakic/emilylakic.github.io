@@ -66,8 +66,11 @@ h1 {
   font-family: 'Dancing Script', cursive;
 }
 mark {
-  background: #ff0;
+  background: #ffffff;
   color: #000;
+  display: inline-block; 
+  height: 1.15em;
+  line-height: 0.4;
 }
 small {
   font-size: 80%;

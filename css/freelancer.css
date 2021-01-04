@@ -6204,7 +6204,8 @@ button.bg-primary:focus {
 
 .aboutbg-primary{
 	background-size: 100% 100%;
-	background-image: url('https://i.imgur.com/Mb4bZ17.jpg');
+	background-color: #eae9e3;
+	/*background-image: url('https://i.imgur.com/Mb4bZ17.jpg');*/
 }
 
 a.aboutbg-primary:focus, a.aboutbg-primary:hover,

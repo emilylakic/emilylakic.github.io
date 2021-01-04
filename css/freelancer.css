@@ -9329,7 +9329,6 @@ button.bg-dark:focus {
 }
 
 .text-uppercase {
-  text-transform: uppercase !important;
 }
 
 .text-capitalize {
@@ -9771,8 +9770,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
-    font-size: 3rem;
-    line-height: 2.5rem;
+    font-size: 4rem;
+    line-height: 3.5rem;
   }
 }
 

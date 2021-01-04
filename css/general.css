@@ -1057,7 +1057,8 @@ color: #ECEBEB;
 		    background-image: none; 
 			background-size: cover;
 			text-align: center;
-			background-color: #34495e;
+			/*background-color: #34495e;*/
+			background: url('https://i.imgur.com/R0oxcaw.jpg') no-repeat center center;
 		}
 		
 		h1, .h1 {

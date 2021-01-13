@@ -222,7 +222,7 @@ width: 100%;
   font-size: 16px;
   line-height: 1.72222;
   color: #000000; /*dark blue color, now black*/ /*this is the color of the header text for each section. as well as the text paragraphs for BIU, HvsH, and the Python game*/
-  background-image:url(https://i.imgur.com/4WR7Iv7.png); /*light blue color to match the current header photo*/
+  background-image:url(https://i.imgur.com/4WR7Iv7.png) no-repeat center center; /*light blue color to match the current header photo*/
   width: 100vw;
   height: 100vh;
   background-position: center, center;

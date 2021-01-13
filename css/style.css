@@ -226,6 +226,7 @@ width: 100%;
   width: 100vw;
   height: 100vh;
   background-position: center, center;
+  background-size: cover;
 }
 a {
   color: #707c80;

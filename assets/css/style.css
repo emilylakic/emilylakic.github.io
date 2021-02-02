@@ -831,7 +831,7 @@ section {
 
 .about .play-btn:hover::after {
   border-left: 15px solid #3f43fd;
-  transform: scale(20);
+  transform: scale(5);
 }
 
 .about .play-btn:hover::before {

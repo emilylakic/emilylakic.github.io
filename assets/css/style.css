@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #34e5a6;
+  color: rgba(54, 122, 150);
   text-decoration: none;
 }
 
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #2be4a2;
+  background: rgba(54, 122, 150);
   color: #fff;
 }
 
@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(1, 4, 136, 0.9);
+  background: rgba(54, 122, 150);
 }
 
 #header.header-transparent {
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(1, 4, 136, 0.9);
+  background: rgba(54, 122, 150);
   height: 60px;
 }
 
@@ -412,7 +412,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(2, 5, 161, 0.91);
+  background: rgba(54, 122, 150);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -644,7 +644,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #010483;
+  color: rgba(41, 93, 115);
 }
 
 /*--------------------------------------------------------------
@@ -717,7 +717,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #010483;
+  color: rgba(41, 93, 115);
   margin-bottom: 15px;
 }
 
@@ -964,7 +964,7 @@ section {
 .details .content h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #010483;
+  color: rgba(41, 93, 115);
 }
 
 .details .content ul {
@@ -1534,7 +1534,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #010351;
+  background: rgba(54, 122, 150);
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1546,7 +1546,7 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #010246;
+  background: rgba(54, 125, 154);
   color: #fff;
   border-top: 4px solid #2cafc4;
   text-align: center;

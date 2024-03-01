@@ -790,7 +790,7 @@ section {
 .about .play-btn {
   width: 40px;
   height: 40px;
-  background: radial-gradient(#3f43fd 50%, rgba(63, 67, 253, 0.4) 52%);
+  background: radial-gradient(#c3ecf4 50%, rgba(191, 243, 244, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -831,14 +831,14 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(63, 67, 253, 0.7);
+  border: 5px solid rgba(191, 243, 244, 0.4);
   top: -15%;
   left: -13%;
   background: rgba(198, 16, 0, 0);
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #3f43fd;
+  border-left: 15px solid #2cafc4;
   transform: scale(5);
 }
 

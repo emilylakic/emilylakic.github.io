@@ -1591,11 +1591,13 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #2cafc4;
-  color: #fff;
+  background: #fff;
+  border: 1px solid rgba(41, 93, 115, 0.8);
+  color: rgba(41, 93, 115, 0.8);
   text-decoration: none;
 }
 

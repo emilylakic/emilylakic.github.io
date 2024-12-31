@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #2cafc4;
+  color: #99b6c9;
   text-decoration: none;
 }
 
@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: rgba(41, 93, 115, 0.8);
+  color: #d5e5f2;
   padding: 10px 0 10px 25px;
   transition: 0.3s;
   font-size: 15px;
@@ -205,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 3px;
   left: 25px;
-  background-color: #1f97a3;
+  background-color: #fff;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -351,7 +351,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #84c5d1;
+  color: #91bcd9;
   text-decoration: none;
 }
 
@@ -435,7 +435,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 span {
-  color: rgba(41, 93, 115, 0.8);
+  color: #fff;
   border-bottom: 4px solid #fff;
 }
 
@@ -454,16 +454,16 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #fff;
-  background: #84c5d1;
+  color: #4a6b87;
+  background: #d5e5f2;
   border: 1px solid rgba(41, 93, 115, 0.1);
   margin-right: 200px;
 }
 
 #hero .btn-get-started:hover {
   background: #fff;
-  color: #84c5d1;
-  border: 0.5px solid #84c5d1;
+  color: #4a6b87;
+  border: 0.5px solid #4a6b87;
 }
 
 #hero .animated {
@@ -643,7 +643,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #2cafc4;
+  background: #91bcd9;
   margin: 4px 10px;
 }
 
@@ -654,7 +654,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: rgba(43,91,115);
+  color: #4a6b87;
 }
 
 /*--------------------------------------------------------------
@@ -727,7 +727,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: rgba(41, 93, 115);
+  color: #4a6b87;
   margin-bottom: 15px;
 }
 
@@ -742,19 +742,19 @@ section {
   justify-content: center;
   width: 64px;
   height: 64px;
-  border: 2px solid #92cfdf;
+  border: 2px solid #d5e5f2;
   border-radius: 50px;
   transition: 0.5s;
 }
 
 .about .icon-box .icon i {
-  color: #1f97a3;
+  color: #91bcd9;
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: #bcebf7;
-  border-color: #92cfdf;
+  background: #fff;
+  border-color: #4a6b87;
 }
 
 .about .icon-box:hover .icon i {
@@ -840,7 +840,7 @@ section {
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #2cafc4;
+  border-left: 15px solid #91bcd9;
   transform: scale(5);
 }
 
@@ -974,7 +974,7 @@ section {
 .details .content h3 {
   font-weight: 600;
   font-size: 28px;
-  color: rgba(41, 93, 115);
+  color: #4a6b87;
   margin-bottom: 40px;
 }
 

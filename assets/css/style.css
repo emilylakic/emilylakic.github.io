@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(153, 203, 216);
+  background: #4a6b87;
   height: 60px;
 }
 
@@ -386,7 +386,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(153, 203, 216, 0.5);
+  background: #4a6b87;
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
@@ -418,7 +418,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(153, 203, 216);
+  background: #4a6b87;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1545,7 +1545,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: rgba(153, 203, 216);
+  background: #4a6b87;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1557,7 +1557,7 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: rgba(153, 206, 216);
+  background: #4a6b87;
   color: #fff;
   border-top: 4px solid #fff;
   text-align: center;
